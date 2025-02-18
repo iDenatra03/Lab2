@@ -90,9 +90,9 @@
 }
 
 #grid-section2 .gridboxblue {
-    grid-column: 2 / 4;
+    grid-column: 1 / 4;
     grid-row: 1 / 4;
-    background: rgba(0, 0, 255, 0.5); 
+    background: rgba(0, 0, 255, 0.5); /* Transparent Blue */
     color: white;
     z-index: 2;
     position: absolute;
@@ -103,12 +103,12 @@
 #grid-section2 .gridboxred {
     grid-column: 1 / 3;
     grid-row: 2 / 3;
-    background: rgba(255, 0, 0, 0.5); 
+    background: rgba(255, 0, 0, 0.5); /* Transparent Red */
     color: white;
     z-index: 1;
     position: absolute;
     width: 80%;
-    height: 50%;
+    height: 400%;
 }
 
 /* Grid Part 3 */
