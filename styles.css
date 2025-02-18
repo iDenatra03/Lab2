@@ -54,23 +54,31 @@
     height: 400px;
 }
 
+#flex-section3 .box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    padding: 10px;
+}
+
 #flex-section3 .tags ul {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, auto);
     grid-template-rows: repeat(2, auto);
-    gap: 5px;
+    gap: 2px;
     list-style: none;
     padding: 0;
-    max-width: 200px;
     justify-content: center;
 }
 
 #flex-section3 .tags ul li {
     background: #ccc;
-    padding: 3px 8px;
+    padding: 5px 10px;
     border-radius: 5px;
     text-align: center;
     font-size: 12px;
+    white-space: nowrap;
 }
 /* Grid Part 1 */
 #grid-section1 .grid {
