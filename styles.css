@@ -58,18 +58,19 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, auto);
-    gap: 10px;
+    gap: 5px;
     list-style: none;
     padding: 0;
-    max-width: 250px;
+    max-width: 200px;
     justify-content: center;
 }
 
 #flex-section3 .tags ul li {
     background: #ccc;
-    padding: 5px 10px;
+    padding: 3px 8px;
     border-radius: 5px;
     text-align: center;
+    font-size: 12px;
 }
 /* Grid Part 1 */
 #grid-section1 .grid {
@@ -88,14 +89,16 @@
 }
 
 #grid-section2 .gridboxblue {
-    grid-column: 1 / 4;
+    grid-column: 2 / 4;
     grid-row: 1 / 4;
     background: rgba(0, 0, 255, 0.5); /* Transparent Blue */
     color: white;
     z-index: 2;
     position: absolute;
-    width: 100%;
+    width: 80%;
     height: 100%;
+    top: 0;
+    right: 0;
 }
 
 #grid-section2 .gridboxred {
@@ -105,8 +108,10 @@
     color: white;
     z-index: 1;
     position: absolute;
-    width: 80%;
-    height: 400%;
+    width: 60%;
+    height: 50%;
+    left: 0;
+    top: 50%;
 }
 
 /* Grid Part 3 */
