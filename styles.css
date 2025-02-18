@@ -52,20 +52,25 @@
     justify-content: center;
     align-items: center;
     height: 400px;
+    flex-direction: column;
 }
 
 #flex-section3 .tags ul {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     list-style: none;
     padding: 0;
     gap: 10px;
+    max-width: 200px;
 }
 
 #flex-section3 .tags ul li {
     background: #ccc;
     padding: 5px 10px;
     border-radius: 5px;
+    flex: 1 1 30%;
+    text-align: center;
 }
 
 /* Grid Part 1 */
