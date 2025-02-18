@@ -57,10 +57,12 @@
 #flex-section3 .tags ul {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-gap: 10px;
+    grid-template-rows: repeat(2, auto);
+    gap: 10px;
     list-style: none;
     padding: 0;
-    max-width: 220px;
+    max-width: 250px;
+    justify-content: center;
 }
 
 #flex-section3 .tags ul li {
